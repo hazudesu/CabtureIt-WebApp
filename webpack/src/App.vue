@@ -1,15 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-
-  </div>
+    <div id="app">
+      <Header/>
+      <SideLayout/>
+    </div>
 </template>
 
 <script>
+  import SideLayout from './components/Layouts/SideLayout';
+  import Header from './components/Layouts/Header';
 
 export default {
   name: 'app',
   components: {
+      SideLayout,
+      Header
   }
 }
 </script>
