@@ -1,5 +1,5 @@
 <template>
-    <div style="position:relative; bottom:80px; left:350px">
+    <div style="position:relative; bottom:80px; left:370px">
         <table style="table-layout: fixed; width: max-content;">
             <tr >
                 <header class="header">
@@ -20,12 +20,12 @@
 
 <style scoped>
     .header{
-        background: white;
         color: aqua;
         text-align: center;
         padding: 0;
         margin-top: 0;
         height: 100px;
+        width: max-content;
     }
     .header a{
         height: 0;

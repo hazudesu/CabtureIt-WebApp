@@ -9,13 +9,15 @@
   import SideLayout from './components/Layouts/SideLayout';
   import Header from './components/Layouts/Header';
 
-
 export default {
   name: 'app',
   components: {
       SideLayout,
       Header
-  }
+  },
+    data() {
+
+    }
 }
 </script>
 
