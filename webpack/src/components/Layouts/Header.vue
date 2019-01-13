@@ -1,13 +1,14 @@
 <template>
-    <div style="position:relative; bottom:100px; left:250px">
-        <table style="table-layout: fixed; width: max-content">
-            <tr height="100">
+    <div style="position:relative; bottom:80px; left:350px">
+        <table style="table-layout: fixed; width: max-content;">
+            <tr >
                 <header class="header">
-                    <img alt="CabtureIt logo" src="./bantest.png" align="center"/>
+                    <img alt="CabtureIt logo" src="./bantestclr.png" align="center"/>
                 </header>
             </tr>
         </table>
     </div>
+
 </template>
 
 <script>
@@ -19,7 +20,7 @@
 
 <style scoped>
     .header{
-        background: #ffffff;
+        background: white;
         color: aqua;
         text-align: center;
         padding: 0;
@@ -27,7 +28,8 @@
         height: 100px;
     }
     .header a{
-        height: 0px;
+        height: 0;
         width: max-content;
+        background: white;
     }
 </style>
